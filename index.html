@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Player</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="video-container">
+        <video controls>
+            <source src="vid.mp4">
+        </video>
+	</div>
+    <section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 col-md-6 col-12 pb-4">
+                <h1 class="font">Comments</h1>
+                <div class="text-justify darker mt-4 float-left">
+                    <h4 class="font">Rob Simpson</h4> <span></span><br>
+                    <span>- 20 October, 2018</span> <br>
+                    <p>Thriller and absolutely Master Piece</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-5 col-sm-4 offset-md-1 offset-sm-1 col-12 mt-4">
+                <form id="algin-form">
+                    <div class="form-group">                    
+                        <h4 class="font">Leave a comment</h4> <label for="message">Comment</label> <textarea name="msg" id="" msg cols="30" rows="5" class="form-control" style="background-color: black;"></textarea>
+                        <div class="mt-2 rating"> <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label></div>
+                    </div>
+                    <div class="form-group"><button type="button" class="d-flex justify-content-center mt-5 post" class="btn">Post Comment</button> </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
